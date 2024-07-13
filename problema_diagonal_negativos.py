@@ -15,5 +15,5 @@ cont = 0
 for i in range(0, n):
     for j in range(0, n):
         if mat[i][j] < 0:
-            cont = cont + 1
+            cont += 1
 print(cont)
